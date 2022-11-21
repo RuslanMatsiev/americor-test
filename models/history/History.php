@@ -1,7 +1,9 @@
 <?php
 
-namespace app\models;
+namespace app\models\history;
 
+use app\models\User;
+use app\models\Customer;
 use app\models\traits\ObjectNameTrait;
 use Yii;
 use yii\db\ActiveQuery;
